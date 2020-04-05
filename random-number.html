@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title> Random number </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<button onclick="myFunction()">Random</button>
+
+<p id="numero"></p>
+
+<script>
+function myFunction() {
+  var x = Math.floor((Math.random() * 101) + 1);
+  document.getElementById("numero").innerHTML = x;
+}
+</script>
+
+<style type="text/css">
+	
+body {
+	background-color: #91DBE8;
+	font-family: 'Open Sans', sans-serif;
+	color: #1D2966;
+	text-align: center;
+	font-size: 6rem;
+}
+
+button {
+	font-family: 'Open Sans', sans-serif;
+	color: #1D2966;
+	background-color: #f9f9f9;
+	font-size: 5rem;
+
+}
+
+</style>
+
+
+
+</body>
+
+
+</html>
